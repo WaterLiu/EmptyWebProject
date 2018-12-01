@@ -1,5 +1,5 @@
 import React from 'react';
-
+import styles from './index.css';
 
 class FirstPage extends React.Component {
 
@@ -11,7 +11,7 @@ class FirstPage extends React.Component {
     render() {
         return (
             <div>
-                First Page!
+                <div className={styles.box}></div>
             </div>
         );
     }
